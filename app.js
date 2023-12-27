@@ -108,6 +108,7 @@ app.delete("/api/pets/:id", (req, res) => {
   }
 });
 
-let port = 3001;
-app.listen(port);
-console.log("Starting server at port " + port + "...");
+let port = process.env.PORT || 3001;
+app.listen(port, () => {
+  console.log("Server is running on port " + port);
+});
