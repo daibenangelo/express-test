@@ -10,6 +10,7 @@ app.use(cors());
 
 app.get("/api/pets", (req, res) => {
   res.send(p);
+  console.log(p);
 });
 
 app.get("/api/pets/:id", (req, res) => {
