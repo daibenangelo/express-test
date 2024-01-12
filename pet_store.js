@@ -62,6 +62,13 @@ const pets = [
     pet_name: "Perry",
     image: "platypus.jpg",
   },
+  {
+    id: 9,
+    species: "parrot",
+    eating_habit: "omnivore",
+    pet_name: "Loki",
+    image: "parrot.jpg",
+  },
 ];
 
 module.exports = { pets };
